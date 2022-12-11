@@ -463,13 +463,17 @@
                   <div class="form-block">
                      <form action="https://formspree.io/f/xnqreael" method="post" name="feedback-form">
                         <div class="fieldsets row">
-                           <div class="col-md-6"><input type="text" placeholder="Nome " name="name"></div>
+                           <div class="col-md-6"><input type="text" placeholder="Nome " name="name" required></div>
                            <div class="col-md-6"><input type="number" placeholder="Telefono" name="phone"></div>
                         </div>
                         <div class="fieldsets row">
                            <div class="col-md-12"><input type="email" placeholder="Email" name="email"></div>
                         </div>
                         <div class="fieldsets"><textarea placeholder="Messaggio (facoltativo)" name="message"></textarea></div>
+                        <div class="custom-control custom-checkbox">
+                           <input type="checkbox" class="custom-control-input" id="customCheck" name="privacy" checked="checked" required>
+                           <label class="custom-control-label" for="customCheck">Ho letto <a href="pages/privacy.html">l’informativa</a> e autorizzo il trattamento dei miei dati personali</label>
+                         </div>
                         <div class="fieldsets mt20"> <button type="submit" name="submit" class="lnk btn-main bg-btn">Inoltra <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></button> </div>
                         <p class="trm"><i class="fas fa-lock"></i>Noi odiamo lo spam, rispettiamo la tua pricacy</p>
                      </form>
@@ -527,6 +531,12 @@
                         </li>
                         <li>
                            <a href="#contattaci" class="menu-links">Contattaci</a>
+                        </li>
+                        <li>
+                           <a href="pages/privacy.html" class="menu-links">Privacy Policy</a>
+                        </li>
+                        <li>
+                           <a href="pages/informazioni_legali.html" class="menu-links">Informazioni legali</a>
                         </li>
                      </ul>
                   </div>
