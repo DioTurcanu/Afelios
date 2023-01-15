@@ -12535,7 +12535,9 @@ border-color: rgba(255, 255, 255, .1);
 .overlay-bg.light-5{background: rgba(255,255,255,.5);}
 .overlay-bg.light-6{background: rgba(255,255,255,.6);}
 .overlay-bg.light-7{background: rgba(255,255,255,.7);}
-.overlay-bg.light-8{background: rgba(255,255,255,.8);}
+
+/* COLORE BACKGROUND */
+.overlay-bg.light-8{background: rgba(15,18,37,.94);}
 
 .overlay-bg.c1 {
     background: rgba(var(--primary-color-rgb), .8);
